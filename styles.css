@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.content{
+    width: 40%;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.close{
+    display: none;
+}
+.open{
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.colors{
+    border: 2px solid #dc3545;
+}
+.colors:focus{
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.25rem rgb(253 13 56 / 25%) !important;
+    
+}
+
+.result{
+    margin-bottom: 30px;
+}
+
+.result{
+    width: max-content;
+    padding: 10px 20px;
+    margin: 0 auto 50px;
+}
